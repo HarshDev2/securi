@@ -2,6 +2,7 @@
   "name": "securi",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "./dist/index.js",
   "scripts": {
     "build:dev": "tsc --watch",
@@ -14,6 +15,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.18",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "generate-password-ts": "^1.6.3",
+    "inquirer": "^9.1.4"
   }
 }
