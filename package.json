@@ -6,7 +6,10 @@
   "scripts": {
     "build:dev": "tsc --watch",
     "build": "tsc"
-  },  
+  },
+  "bin": {
+    "securi": "./dist/main.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
