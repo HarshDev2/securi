@@ -19,5 +19,9 @@ and view all the passwords by:
 ```bash
 npx securi view
 ```
+If you want the passwords file you can get it by:
+```
+npx securi export
+```
 **Note:**
 Securi is an new CLI so, you may encounter errors or bugs, please report them [here](https://github.com/HarshDev2/securi/issues).
