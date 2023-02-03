@@ -1,7 +1,14 @@
 {
   "name": "securi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Securi is a CLI, which can be used to manage passwords directly in CLI.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarshDev2/securi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HarshDev2/securi/issues"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "scripts": {
