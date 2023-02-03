@@ -66,10 +66,10 @@ else if (input === 'view') {
 
     const passwordString = data.map((p: any) => `${p.name}: ${p.value}`).join('\n');
 
-    console.log(`\t \t Securi CLI v0.0.3 \nPasswords:\n${passwordString}`);
+    console.log(`\t \t Securi CLI v0.0.4 \nPasswords:\n${passwordString}`);
   } catch (e: any) {
     if (e.errno === -4058) {
-      console.log('\t \t Securi CLI v0.0.3 \nNo Saved Passwords Found!');
+      console.log('\t \t Securi CLI v0.0.4 \nNo Saved Passwords Found!');
     }
     else console.log(`Some Error Occured, Please report it here: https://github.com/HarshDev2/securi/issues \n\n${e}`);
   }
@@ -83,5 +83,5 @@ else if (input === 'export') {
   }
   else console.log(`Can't found the password file.`);
 }
-else if (!argv[2]) console.log(`\t \t Securi CLI v0.0.3 \nCommands-\ngenerate - generates a random password and saves it.\nview - display all your saved passwords. \nexport - gives the link of the passwords file.`)
+else if (!argv[2]) console.log(`\t \t Securi CLI v0.0.4 \nCommands-\ngenerate - generates a random password and saves it.\nview - display all your saved passwords. \nexport - gives the link of the passwords file.`)
 else console.error((`Unidentified Command: ${input}`));

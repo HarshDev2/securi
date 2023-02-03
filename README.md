@@ -1,4 +1,4 @@
-# Securi v0.0.3
+# Securi v0.0.4
 Securi helps you by generating and saving stronf passwords in you machine directly by CLI.
 
 ## Installation
