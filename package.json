@@ -1,7 +1,7 @@
 {
   "name": "securi",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Securi is a CLI, which can be used to manage passwords directly in CLI.",
   "type": "module",
   "main": "./dist/index.js",
   "scripts": {
@@ -11,9 +11,9 @@
   "bin": {
     "securi": "./dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["CLI", "Password Manager"],
+  "author": "Harsh Agrawal",
+  "license": "MIT",
   "devDependencies": {
     "@types/inquirer": "^9.0.3",
     "@types/node": "^18.11.18",
