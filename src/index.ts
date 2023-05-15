@@ -2,7 +2,7 @@
 import { argv } from 'node:process';
 import inquirer from 'inquirer';
 import generator from 'generate-password-ts';
-import { writeFile, readFile, stat } from 'node:fs/promises';
+import { writeFile, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 
