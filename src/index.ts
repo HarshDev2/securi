@@ -84,4 +84,4 @@ else if (input === 'export') {
   else console.log(`Can't found the password file.`);
 }
 else if (!argv[2]) console.log(`\t \t Securi CLI v0.0.4 \nCommands-\ngenerate - generates a random password and saves it.\nview - display all your saved passwords. \nexport - gives the link of the passwords file.`)
-else console.error((`Unidentified Command: ${input}`));
+else console.error((`Unidentified Command: ${input}. \nUse securi help to get to know about securi commands.`));
