@@ -1,5 +1,5 @@
 # Securi v0.0.4
-Securi helps you by generating and saving stronf passwords in you machine directly by CLI.
+Securi helps you by generating and saving strong passwords in your machine directly by CLI.
 
 ## Installation
 You can simply use securi cli by using:
